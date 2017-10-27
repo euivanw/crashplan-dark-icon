@@ -1,17 +1,17 @@
-# CrashPlan Black Icons
+# CrashPlan Dark Icon
 
-CrashPlan Icons for who uses dark menu bar on macOS.
+CrashPlan icons for people who uses dark menubar on macOS.
 
 # Installation
 
 ```bash
-$ git clone git@github.com:ivanwhm/crashplan-black-icons.git
+$ git clone git@github.com:ivanwhm/crashplan-dark-icon.git
 $ cp dark-version/*.png /Applications/CrashPlan.app/Contents/Helpers/CrashPlan\ menu\ bar.app/Contents/Resources/
 $ killall "CrashPlan menu bar"
 $ open -a "CrashPlan menu bar"
 ```
 
-To restore, reinstall the application or run:
+To restore the original icons, reinstall the entire application or run the following command:
 
 ```bash
 $ cp original-version/*.png /Applications/CrashPlan.app/Contents/Helpers/CrashPlan\ menu\ bar.app/Contents/Resources/
@@ -19,4 +19,4 @@ $ killall "CrashPlan menu bar"
 $ open -a "CrashPlan menu bar"
 ```
 
-Please open an issue if you have any problem.
+Please open an issue if you have any problem with it.
